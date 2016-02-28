@@ -1,0 +1,9 @@
+<% @users.each do |user| %>
+    <%= user.username %> can be reached via <%= user.email %> and is <%= user.age %>.
+<% end %>
+<% @cats.each do |cat| %>
+    <%= cat.name %>
+<% end %>
+<% @todos.each do |todo| %>
+    <%= todo.task %> is <%= todo.finished %>
+<% end %>
